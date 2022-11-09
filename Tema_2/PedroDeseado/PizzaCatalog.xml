@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<pizzas 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="./PizzaSchema.xsd">
+    <pizza nombre = "Margarita" precio = "19.95" vegana = "false">
+        <ingrediente nombre = "mozarella"></ingrediente>
+        <ingrediente nombre = "albahaca"></ingrediente>
+        <ingrediente nombre = "tomate"></ingrediente>
+        <ingrediente nombre = "sal"></ingrediente>
+        <ingrediente nombre = "aceite"></ingrediente>                     
+    </pizza>
+    <pizza nombre = "Cuatro Quesos" precio = "18.95" vegana = "false">
+        <ingrediente nombre = "mozarella"></ingrediente>
+        <ingrediente nombre = "azul"></ingrediente>
+        <ingrediente nombre = "gorgonzola"></ingrediente>
+        <ingrediente nombre = "roquefort"></ingrediente>
+        <ingrediente nombre = "aceite"></ingrediente>
+    </pizza>
+    <pizza nombre = "Veggie" precio = "16.95" vegana = "true">
+        <ingrediente nombre = "cebolla"></ingrediente>
+        <ingrediente nombre = "maiz"></ingrediente>
+        <ingrediente nombre = "pimiento verde"></ingrediente>        
+    </pizza>
+</pizzas>
