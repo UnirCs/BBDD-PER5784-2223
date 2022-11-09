@@ -20,14 +20,14 @@
 		<ingrediente nombre="Edam"/>
 		<ingrediente nombre="Queso azul"/>
 	</pizza>
-	<pizza nombre="carbonara" precio="9.50" vegana="false">
+	<pizza nombre="Carbonara" precio="9.50" vegana="false">
 		<ingrediente nombre="Salsa carbonara"/>
 		<ingrediente nombre="Mozzarella"/>
 		<ingrediente nombre="Ternera"/>
 		<ingrediente nombre="Bacon"/>
 		<ingrediente nombre="Cebolla"/>
 	</pizza>
-	<pizza nombre="barbacoa" precio="9.50" vegana="false">
+	<pizza nombre="Barbacoa" precio="9.50" vegana="false">
 		<ingrediente nombre="Salsa barbacoa"/>
 		<ingrediente nombre="Mozzarella"/>
 		<ingrediente nombre="Jamon dulce"/>
