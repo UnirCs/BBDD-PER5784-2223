@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pizzas>
+	<pizza nombre="Prosciutto e funghi" precio="9" vegana="false">
+		<ingrediente nombre="Salsa de tomate"/>
+		<ingrediente nombre="Mozzarella"/>
+		<ingrediente nombre="Jamon dulce"/>
+		<ingrediente nombre="Champiñon"/>
+		<ingrediente nombre="Oregano"/>
+	</pizza>
+	<pizza nombre="Espinacas" precio="9.50" vegana="true">
+		<ingrediente nombre="Salsa de tomate"/>
+		<ingrediente nombre="Queso vegetal"/>
+		<ingrediente nombre="Espinacas"/>
+		<ingrediente nombre="Pasas"/>
+		<ingrediente nombre="Oregano"/>
+	</pizza>
+	<pizza nombre="Cuatro quesos" precio="9" vegana="false">
+		<ingrediente nombre="Cheddar"/>
+		<ingrediente nombre="Gouda"/>
+		<ingrediente nombre="Edam"/>
+		<ingrediente nombre="Queso azul"/>
+	</pizza>
+	<pizza nombre="carbonara" precio="9.50" vegana="false">
+		<ingrediente nombre="Salsa carbonara"/>
+		<ingrediente nombre="Mozzarella"/>
+		<ingrediente nombre="Ternera"/>
+		<ingrediente nombre="Bacon"/>
+		<ingrediente nombre="Cebolla"/>
+	</pizza>
+	<pizza nombre="barbacoa" precio="9.50" vegana="false">
+		<ingrediente nombre="Salsa barbacoa"/>
+		<ingrediente nombre="Mozzarella"/>
+		<ingrediente nombre="Jamon dulce"/>
+		<ingrediente nombre="Ternera"/>
+		<ingrediente nombre="Salchicha"/>
+	</pizza>
+	<pizza nombre="Campesina" precio="9" vegana="true">
+		<ingrediente nombre="Queso vegetal"/>
+		<ingrediente nombre="Champiñon"/>
+		<ingrediente nombre="Pimiento rojo"/>
+		<ingrediente nombre="Aceitunas negras"/>
+		<ingrediente nombre="Tomate fresco"/>
+	</pizza>
+	<pizza nombre="Marinera" precio="10" vegana="false">
+		<ingrediente nombre="Mozzarella"/>
+		<ingrediente nombre="Atun"/>
+		<ingrediente nombre="Mejillones"/>
+		<ingrediente nombre="Gambas"/>
+		<ingrediente nombre="Anchoas"/>
+	</pizza>
+</pizzas>
