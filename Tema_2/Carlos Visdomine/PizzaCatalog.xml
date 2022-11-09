@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pizzas
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="PizzaSchema.xsd">
+<pizza nombre="carnivora" precio="25" vegan="false">
+    <ingredientes>
+        <nombre>peperoni</nombre>
+    </ingredientes>
+</pizza>
+<pizza nombre="bbq" precio="18" vegan="false">
+    <ingredientes>
+        <nombre>beacon</nombre>
+        <nombre>pollo</nombre>
+    </ingredientes>
+</pizza>
+<pizza nombre="hawaiana" precio="12" vegan="false">
+    <ingredientes>
+        <nombre>piña</nombre>
+        <nombre>jamon york</nombre>
+        <nombre>queso</nombre>
+    </ingredientes>
+</pizza>
+<pizza nombre="especial" precio="30" vegan="false">
+    <ingredientes>
+        <nombre>aceituna</nombre>
+        <nombre>beacon</nombre>
+        <nombre>queso</nombre>
+        <nombre>tomate</nombre>
+        <nombre>salsa especial</nombre>
+    </ingredientes>
+</pizza>
+</pizzas>
