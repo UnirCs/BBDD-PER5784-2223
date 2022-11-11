@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<pizzas>
+    <pizza nombre="Barbacoa" price="11" vegan="false">
+        <ingrediente nombre="Salsa Barbacoa"/>
+        <ingrediente nombre="Mozzarella"/>
+        <ingrediente nombre="Pollo"/>
+        <ingrediente nombre="Bacon"/>
+        <ingrediente nombre="Ternera"/>
+    </pizza>
+    <pizza nombre="Margarita" price="8" vegan="false">
+        <ingrediente nombre="Tomate"/>
+        <ingrediente nombre="Jamón"/>
+        <ingrediente nombre="Queso"/>
+    </pizza>
+    <pizza nombre="Tres Quesos" price="10" vegan="false">
+        <ingrediente nombre="Cabrales"/>
+        <ingrediente nombre="Mozzarella"/>
+        <ingrediente nombre="Manchego"/>
+        <ingrediente nombre="Jamón"/>
+        <ingrediente nombre="Bacon"/>
+    </pizza>
+    <pizza nombre="BBQ Chicken" price="12" vegan="false">
+        <ingrediente nombre="Salsa BBQ"/>
+        <ingrediente nombre="Pollo"/>
+        <ingrediente nombre="Cebolla"/>
+        <ingrediente nombre="Queso Cheddar"/>
+        <ingrediente nombre="Provolone"/>
+    </pizza>
+    <pizza nombre="vegan" price="12" vegan="true">
+        <ingrediente nombre="Champiñones"/>
+        <ingrediente nombre="Maíz"/>
+        <ingrediente nombre="Tomate Rodajas"/>
+        <ingrediente nombre="Pimiento Verde"/>
+        <ingrediente nombre="Mozzarella"/>
+    </pizza>
+</pizzas>
