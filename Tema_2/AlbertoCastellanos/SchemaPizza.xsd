@@ -6,19 +6,19 @@
                 <xsd:element name = "pizza" maxOccurs= "unbounded">
                     <xsd:complexType>
                         <xsd:sequence minOccurs = "1" maxOccurs = "5">
-                            <xsd:element ref = "ingrediente"/>
+                            <xsd:element ref = "ingredient"/>
                         </xsd:sequence>
-                        <xsd:attribute name = "nombre" use = "required" type = "xsd:string"/>
-                        <xsd:attribute name = "precio" use = "required" type = "xsd:decimal"/>
-                        <xsd:attribute name = "vegana" use = "required" type = "xsd:boolean"/>
+                        <xsd:attribute name = "name" use = "required" type = "xsd:string"/>
+                        <xsd:attribute name = "price" use = "required" type = "xsd:decimal"/>
+                        <xsd:attribute name = "vegan" use = "required" type = "xsd:boolean"/>
                     </xsd:complexType>
                 </xsd:element>
             </xsd:sequence>
         </xsd:complexType>
     </xsd:element>
-    <xsd:element name="ingrediente">
-        <xsd:complexType>            
-            <xsd:attribute name = "nombre" use = "required" type = "xsd:string"/>       
+    <xsd:element name="ingredient">
+        <xsd:complexType>
+            <xsd:attribute name = "name" use = "required" type = "xsd:string"/>
         </xsd:complexType>
     </xsd:element>
 </xsd:schema>
