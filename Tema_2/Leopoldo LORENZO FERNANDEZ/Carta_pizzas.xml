@@ -6,8 +6,7 @@
 			<nombre>tomate</nombre>
 			<nombre>albahaca</nombre>		
 		</ingredientes>
-	</pizza>
-	
+	</pizza>	
 	<pizza nombre="carnivora" precio="25" vegan="false">
 		<ingredientes>
 			<nombre>ternera</nombre>
@@ -16,9 +15,7 @@
 			<nombre>mozzarella</nombre>
 			<nombre>peperoni</nombre>			
 		</ingredientes>
-	</pizza>
-	
-	
+	</pizza>	
 	<pizza nombre="cuatro_quesos" precio="20" vegan="false">
 		<ingredientes>
 			<nombre>gorgonzola</nombre>
@@ -27,7 +24,6 @@
 			<nombre>roquefort</nombre>			
 		</ingredientes>
 	</pizza>
-
 	<pizza nombre="vegana" precio="21" vegan="true">
 		<ingredientes>
 			<nombre>maiz</nombre>
