@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pizzas>
+	<pizza nombre="PizzaNombre1" precio="5.50" vegana="true">
+		<ingrediente nombre="salsa de tomate"/>
+		<ingrediente nombre="mozarella"/>
+		<ingrediente nombre="aceite de oliva"/>
+		<ingrediente nombre="oregano"/>
+		<ingrediente nombre="albahaca"/>
+	</pizza>
+	<pizza nombre="PizzaNombre2" precio="4.50" vegana="true">
+		<ingrediente nombre="salsa de tomate"/>
+		<ingrediente nombre="mozarella"/>
+		<ingrediente nombre="anchoas"/>
+		<ingrediente nombre="alcaparras"/>
+		<ingrediente nombre="aceite de oliva"/>
+	</pizza>
+	<pizza nombre="PizzaNombre3" precio="6" vegana="false">
+		<ingrediente nombre="queso parmesano"/>
+		<ingrediente nombre="queso mozarella"/>
+		<ingrediente nombre="queso fontina"/>
+		<ingrediente nombre="queso "/>
+	</pizza>
+	<pizza nombre="PizzaNombre4" precio="3.50" vegana="false">
+		<ingrediente nombre="cebolla"/>
+		<ingrediente nombre="bacon"/>
+		<ingrediente nombre="queso"/>
+		<ingrediente nombre="huevo"/>
+		<ingrediente nombre="pollo"/>
+	</pizza>
+	<pizza nombre="PizzaNombre5" precio="5.50" vegana="false">
+		<ingrediente nombre="salsa"/>
+		<ingrediente nombre="bacon"/>
+		<ingrediente nombre="carne"/>
+		<ingrediente nombre="cebolla"/>
+		<ingrediente nombre="queso"/>
+	</pizza>
+</pizzas>
