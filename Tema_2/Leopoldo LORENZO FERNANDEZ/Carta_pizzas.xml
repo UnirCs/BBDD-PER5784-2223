@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<pizzas>
+	<pizza nombre="margarita" precio="18" vegan="false">
+		<ingredientes>
+			<nombre>mozzarella</nombre>
+			<nombre>tomate</nombre>
+			<nombre>albahaca</nombre>		
+		</ingredientes>
+	</pizza>	
+	<pizza nombre="carnivora" precio="25" vegan="false">
+		<ingredientes>
+			<nombre>ternera</nombre>
+			<nombre>tomate</nombre>
+			<nombre>barbacoa</nombre>
+			<nombre>mozzarella</nombre>
+			<nombre>peperoni</nombre>			
+		</ingredientes>
+	</pizza>	
+	<pizza nombre="cuatro_quesos" precio="20" vegan="false">
+		<ingredientes>
+			<nombre>gorgonzola</nombre>
+		    <nombre>parmesano</nombre>
+			<nombre>mozzarella</nombre>
+			<nombre>roquefort</nombre>			
+		</ingredientes>
+	</pizza>
+	<pizza nombre="vegana" precio="21" vegan="true">
+		<ingredientes>
+			<nombre>maiz</nombre>
+			<nombre>tomate</nombre>
+			<nombre>champiñones</nombre>
+			<nombre>mozzarella</nombre>		
+		</ingredientes>
+	</pizza>
+</pizzas>
+
