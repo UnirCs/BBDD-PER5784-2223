@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name="pizzas">
+        <xsd:complexType>
+            <xsd:sequence minOccurs="1" maxOccurs="unbounded">
+                <xsd:element name = "pizza">
+                    <xsd:complexType>
+                        <xsd:sequence minOccurs="1" maxOccurs="5">
+                            <xsd:element name="ingrediente">
+                                <xsd:complexType>
+                                    <xsd:attribute name="nombre" type="xsd:string" use="required" />
+                                </xsd:complexType>
+                            </xsd:element>
+                        </xsd:sequence>
+                        <xsd:attribute name="nombre" type="xsd:string" use="required" />
+                        <xsd:attribute name="precio" type="xsd:double" use="required" />
+                        <xsd:attribute name="vegana" type="xsd:boolean" use="required" />
+                    </xsd:complexType>
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>
