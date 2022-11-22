@@ -14,7 +14,7 @@
 				<ingrediente nombre="Queso Mozzarella"/>
 				<ingrediente nombre="Cebolla"/>
 		</pizza>
-		<pizza nombre="Veggie" precio="10" vegana="SI">
+		<pizza nombre="Veggie" precio="9" vegana="SI">
 				<ingrediente nombre="Tomate"/>
 				<ingrediente nombre="Maiz"/>
 				<ingrediente nombre="Pimiento"/>
