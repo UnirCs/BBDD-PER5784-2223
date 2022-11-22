@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pizzas>
+        <pizza nombre="Mediterranea" precio="11" vegana="SI">
+				<ingrediente nombre="Cebolla"/>
+				<ingrediente nombre="Maiz"/>
+				<ingrediente nombre="Pimiento"/>
+				<ingrediente nombre="Champiñones"/>
+				<ingrediente nombre="Tomate"/>
+		</pizza>
+		<pizza nombre="Hawaiana" precio="12" vegana="NO">
+				<ingrediente nombre="Piña"/>
+				<ingrediente nombre="Jamon york"/>
+				<ingrediente nombre="salsa"/>
+				<ingrediente nombre="Queso Mozzarella"/>
+				<ingrediente nombre="Cebolla"/>
+		</pizza>
+		<pizza nombre="Veggie" precio="9" vegana="SI">
+				<ingrediente nombre="Tomate"/>
+				<ingrediente nombre="Maiz"/>
+				<ingrediente nombre="Pimiento"/>
+				<ingrediente nombre="Champiñones"/>
+				<ingrediente nombre="Aceitunas"/>
+        </pizza>
+</pizzas>
+	
