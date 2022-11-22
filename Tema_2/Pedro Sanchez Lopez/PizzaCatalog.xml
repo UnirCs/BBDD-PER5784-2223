@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pizzas>
+    <pizza nombre="Napolitana" precio="12.5" vegana="false">
+        <ingrediente nombre="Tomate"/>
+        <ingrediente nombre="Anchoas"/>
+        <ingrediente nombre="Orégano"/>
+    </pizza>
+    <pizza nombre="Vegana" precio="11" vegana="true">
+        <ingrediente nombre="Tomate"/>
+        <ingrediente nombre="Lechuga"/>
+        <ingrediente nombre="Quinoa"/>
+    </pizza>
+</pizzas>
