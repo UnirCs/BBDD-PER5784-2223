@@ -1,0 +1,14 @@
+<?xml "version=1.0" "encoding = "UTF-8"?>
+<pizzas>
+      <pizza nombre="Margarita" precio="5" vegana="false">
+            <ingrediente nombre="Tomate" />
+            <ingrediente nombre="Mozzarela" />
+            <ingrediente nombre="Jamon" />
+      </pizza>
+      <pizza nombre="CuatroQuesos" precio="7" vegana="false">
+            <ingrediente nombre="Gorgonzola" />
+            <ingrediente nombre="Parmesano" />
+            <ingrediente nombre="Mozzarela" />
+            <ingrediente nombre="Fontina" />
+      </pizza>
+</pizzas>
