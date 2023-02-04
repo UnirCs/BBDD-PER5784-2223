@@ -1,0 +1,15 @@
+<?xml_version="1.0" encoding="UTF-8"?>
+<pizzas>
+	<pizza nombre="Carbonara" precio="12" vegana="false" >
+		<ingrediente nombre="tomate"></ingrediente>
+		<ingrediente nombre="queso"></ingrediente>
+		<ingrediente nombre="orégano"></ingrediente>		
+	</pizza>
+	<pizza nombre="Barbacoa" precio="12" vegana="false" >
+		<ingrediente nombre="bbq"></ingrediente>
+		<ingrediente nombre="carne"></ingrediente>				
+	</pizza>
+	<pizza nombre="4quesos" precio="12" vegana="false" >
+		<ingrediente nombre="tomate"></ingrediente>			
+	</pizza>
+</pizzas>
