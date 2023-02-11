@@ -1,0 +1,19 @@
+<?xml_version="1.0" encoding="UTF-8"?>
+<pizzas>	
+	<pizza nombre="Veggie" precio="24" vegana="true" >
+		<ingrediente nombre="rucula"></ingrediente>
+		<ingrediente nombre="tomate"></ingrediente>
+		<ingrediente nombre="berenjena"></ingrediente>				
+	</pizza>
+	<pizza nombre="Carnivora" precio="12" vegana="false" >
+		<ingrediente nombre="carne picada"></ingrediente>
+		<ingrediente nombre="peperoni"></ingrediente>			
+		<ingrediente nombre="bacon"></ingrediente>			
+		<ingrediente nombre="tomate"></ingrediente>
+	</pizza>
+	<pizza nombre="Carbonara" precio="20" vegana="false" >
+		<ingrediente nombre="Nata"></ingrediente>
+		<ingrediente nombre="queso"></ingrediente>
+		<ingrediente nombre="orégano"></ingrediente>		
+	</pizza>
+</pizzas>
