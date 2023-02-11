@@ -1,0 +1,45 @@
+Resultado Plan ejecución sin crear los índices:
+--------------------------------------------------
+
+
+Plan hash value: 998304975
+ 
+---------------------------------------------------------------------------------------------------------------
+| Id  | Operation            | Name      | Rows  | Bytes | Cost (%CPU)| Time     |    TQ  |IN-OUT| PQ Distrib |
+---------------------------------------------------------------------------------------------------------------
+|   0 | SELECT STATEMENT     |           |     4 |    16 |     2   (0)| 00:00:01 |        |      |            |
+|   1 |  PX COORDINATOR      |           |       |       |            |          |        |      |            |
+|   2 |   PX SEND QC (RANDOM)| :TQ10000  |     4 |    16 |     2   (0)| 00:00:01 |  Q1,00 | P->S | QC (RAND)  |
+|   3 |    PX BLOCK ITERATOR |           |     4 |    16 |     2   (0)| 00:00:01 |  Q1,00 | PCWC |            |
+|*  4 |     TABLE ACCESS FULL| EMPLOYEES |     4 |    16 |     2   (0)| 00:00:01 |  Q1,00 | PCWP |            |
+---------------------------------------------------------------------------------------------------------------
+ 
+Predicate Information (identified by operation id):
+---------------------------------------------------
+ 
+   4 - filter("SALARY"=9000)
+ 
+Note
+-----
+   - Degree of Parallelism is 3 because of table property
+
+
+
+
+Resultado Plan ejecución creando los índices:
+--------------------------------------------------
+
+Plan hash value: 562251825
+ 
+----------------------------------------------------------------------------------
+| Id  | Operation        | Name          | Rows  | Bytes | Cost (%CPU)| Time     |
+----------------------------------------------------------------------------------
+|   0 | SELECT STATEMENT |               |     4 |    16 |     1   (0)| 00:00:01 |
+|*  1 |  INDEX RANGE SCAN| EMP_SALARY_IX |     4 |    16 |     1   (0)| 00:00:01 |
+----------------------------------------------------------------------------------
+ 
+Predicate Information (identified by operation id):
+---------------------------------------------------
+ 
+   1 - access("SALARY"=9000)
+
