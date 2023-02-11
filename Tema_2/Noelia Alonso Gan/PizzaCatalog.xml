@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pizzas>
+    <pizza nombre="Barbacoa" precio="18" vegana="false">
+        <ingrediente nombre="carne picada"></ingrediente>
+        <ingrediente nombre="salsa barbacoa"></ingrediente>
+        <ingrediente nombre="queso"></ingrediente>
+        <ingrediente nombre="bacon"></ingrediente>
+    </pizza>
+
+    <pizza nombre="Vegana" precio="22" vegana="true">
+        <ingrediente nombre="tomate"></ingrediente>
+        <ingrediente nombre="rúcula"></ingrediente>
+        <ingrediente nombre="pimiento verde"></ingrediente>
+        <ingrediente nombre="pimiento rojo"></ingrediente>
+    </pizza>
+
+    <pizza nombre="Carbonara" precio="18" vegana="false">
+        <ingrediente nombre="nata"></ingrediente>
+        <ingrediente nombre="bacon"></ingrediente>
+        <ingrediente nombre="champiñones"></ingrediente>
+        <ingrediente nombre="queso"></ingrediente>
+    </pizza>
+
+    <pizza nombre="Margarita" precio="18" vegana="false">
+        <ingrediente nombre="tomate"></ingrediente>
+        <ingrediente nombre="jamón york"></ingrediente>
+        <ingrediente nombre="queso"></ingrediente>
+    </pizza>
+
+</pizzas>
