@@ -4,6 +4,54 @@
 	Un ‘ingrediente’ tiene 1 atributo requerido: ‘nombre’.
 Definir un XML que sea correcto sintácticamente y que sea válido contra el esquema definido. -->
 
+
+----
+PizzaSchemaAlberto2+XMLokEnunciado:
+
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" >
+  <xs:element name="pizzasAlberto2">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="pizza" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ingrediente" minOccurs="1" maxOccurs="5">
+                <xs:complexType>                  
+                    <xs:attribute name="nombre" type="xs:string" use="required"/>                  
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="nombre" type="xs:string" use="required" />
+            <xs:attribute name="precio" type="xs:decimal" use="required" />
+            <xs:attribute name="vegana" type="xs:boolean" use="required" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+
+XML:
+
+<pizzasAlberto2>
+  <pizza nombre="Carbonara" precio="12" vegana="false">
+    <ingrediente nombre="tomate"/>
+	<ingrediente nombre="queso"/> 
+	<ingrediente nombre="orégano"/> 
+  </pizza>
+  <pizza nombre="Barbacoa" precio="12" vegana="false">
+    <ingrediente nombre="bbq"/>
+	<ingrediente nombre="carne"/>
+  </pizza>
+</pizzasAlberto2>
+
+
+
+
+PizzaSchemaAlberto2+XMLokEnunciado.
+----------------------------
+
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" >
   <xs:element name="pizzasAlberto2">
@@ -49,3 +97,5 @@ XML:
     </ingredientes>
   </pizza>
 </pizzasAlberto2>
+
+
