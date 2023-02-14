@@ -1,0 +1,101 @@
+<!--  Definir el XML Schema que podría ofrecer una pizzería. Un XML validado por este schema debería tener
+	Un listado de ‘pizza’ llamado ‘pizzas’.
+	Una ‘pizza’ tiene 3 atributos: ‘nombre’, ‘precio’ , ‘vegana’, y una secuencia de ‘ingrediente’ (de 1 a 5). Todos obligatorios.
+	Un ‘ingrediente’ tiene 1 atributo requerido: ‘nombre’.
+Definir un XML que sea correcto sintácticamente y que sea válido contra el esquema definido. -->
+
+
+----
+PizzaSchemaAlberto2+XMLokEnunciado:
+
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" >
+  <xs:element name="pizzasAlberto2">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="pizza" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ingrediente" minOccurs="1" maxOccurs="5">
+                <xs:complexType>                  
+                    <xs:attribute name="nombre" type="xs:string" use="required"/>                  
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="nombre" type="xs:string" use="required" />
+            <xs:attribute name="precio" type="xs:decimal" use="required" />
+            <xs:attribute name="vegana" type="xs:boolean" use="required" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+
+XML:
+
+<pizzasAlberto2>
+  <pizza nombre="Carbonara" precio="12" vegana="false">
+    <ingrediente nombre="tomate"/>
+	<ingrediente nombre="queso"/> 
+	<ingrediente nombre="orégano"/> 
+  </pizza>
+  <pizza nombre="Barbacoa" precio="12" vegana="false">
+    <ingrediente nombre="bbq"/>
+	<ingrediente nombre="carne"/>
+  </pizza>
+</pizzasAlberto2>
+
+
+
+
+PizzaSchemaAlberto2+XMLokEnunciado.
+----------------------------
+
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" >
+  <xs:element name="pizzasAlberto2">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="pizza" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ingredientes">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element maxOccurs="unbounded" name="name" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="nombre" type="xs:string" use="required" />
+            <xs:attribute name="precio" type="xs:unsignedByte" use="required" />
+            <xs:attribute name="vegana" type="xs:boolean" use="required" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+
+
+
+XML:
+
+<pizzasAlberto2>
+  <pizza nombre="Carbonara" precio="12" vegana="false">
+    <ingredientes>
+      <name>tomate</name>
+      <name>queso</name>
+      <name>orégano</name>
+    </ingredientes>
+  </pizza>
+  <pizza nombre="Barbacoa" precio="12" vegana="false">
+    <ingredientes>
+      <name>bbq</name>
+      <name>carne</name>      
+    </ingredientes>
+  </pizza>
+</pizzasAlberto2>
+
+
